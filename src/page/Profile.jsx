@@ -1,4 +1,3 @@
-import Feed from "../component/common/feed/Feed";
 import Share from "../component/common/share/Share";
 import Post from "../component/common/posts/posts";
 import "./profile.css";

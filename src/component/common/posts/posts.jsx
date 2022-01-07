@@ -22,6 +22,7 @@ const Post = () => {
       </div>
       <img
         className="w-full bg-cover h-80"
+        alt=""
         src="https://3.bp.blogspot.com/-Chu20FDi9Ek/WoOD-ehQ29I/AAAAAAAAK7U/mc4CAiTYOY8VzOFzBKdR52aLRiyjqu0MwCLcBGAs/s1600/DSC04596%2B%25282%2529.JPG"
       />
       <div className="px-3 pb-2">
