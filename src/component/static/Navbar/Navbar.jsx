@@ -1,12 +1,12 @@
 const Navbar = () => {
   return (
-    <nav className="w-full h-12 bg-blue-400 grid grid-cols-3 justify-between px-10 items-center">
+    <nav className="w-full h-12 fixed top-0 left-0 right-0 z-20 bg-blue-400 grid grid-cols-3 justify-between px-10 items-center">
       <div className="">
         <div className="w-full text-white text-2xl font-semibold">social</div>
       </div>
-      <div className="w-full">
+      <div className="w-full flex justify-start">
         <input
-          className="rounded-lg w-full text-lg px-2"
+          className="rounded-full w-full text-lg px-4"
           type="text"
           placeholder="Search"
         />
