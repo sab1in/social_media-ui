@@ -1,11 +1,11 @@
 import "./rightbar.css";
-import { Users } from "../../dummyData";
-import Online from "../online/Online";
+import { Users } from "../../../dummyData";
+import Online from "../../common/online/Online";
 
 export default function Rightbar() {
   return (
     <>
-      <div className="rightbar w-1/4 pt-4">
+      <div className="rightbar sticky top-12 z-10 w-1/5 pt-4">
         <div className="birthdayContainer">
           <img
             className="birthdayImg"
