@@ -16,7 +16,7 @@ import { Users } from "../../../dummyData";
 
 export default function Sidebar() {
   return (
-    <div className="sidebar w-1/5">
+    <div className="sidebar">
       <div className="sidebarWrapper">
         <ul className="sidebarList">
           <li className="sidebarListItem">
